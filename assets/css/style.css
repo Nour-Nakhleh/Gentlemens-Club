@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+
+
+
+.color-gold {
+color: #D9A355;
+}
+
+/* Start Navbar */
+
+nav.navbar {
+    z-index: 9999;
+    background-color: black;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+
+    color: white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #d9a355;
+}
+
+/* End Navbar */
