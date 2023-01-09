@@ -5,6 +5,8 @@
 
 body{
     font-family: playfair display;
+    background-image: linear-gradient(#574028,#d9a355);
+    height: 2000px;
 }
 
 .color-gold {
