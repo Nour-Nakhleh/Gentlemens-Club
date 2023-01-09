@@ -16,11 +16,12 @@ body{
 nav.navbar {
     z-index: 9999;
     background-color: black;
+    border-bottom: 2px dotted #574028;
 }
 
 .navbar .navbar-brand img{
-    max-width: 100px;
-    max-height: 80px;
+    max-width: 115px;
+    max-height: 92px;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
