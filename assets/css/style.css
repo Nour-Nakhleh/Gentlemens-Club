@@ -103,7 +103,7 @@ section.header {
     height: 130vh;
     background-image: url(../img/background.jpg);
     background-size: cover;
-    background-position: fixed;
+    background-position: right;
 }
 
 
