@@ -29,16 +29,29 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item me-3 pt-2 pt-lg-0">
                         <a class="nav-link px-0 position-relative text-capitalize active" aria-current="page"
                             href="#">Home</a>
                     </li>
+
+                    <!-- Start Dropdown-1 -->
                     <li class="nav-item me-3 ps-3">
-                        <a class="nav-link px-0 position-relative text-capitalize" href="#">shop</a>
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle text-capitalize" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                shop
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-capitalize" href="#">action 1</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">action 2</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">action 3</a></li>
+                            </ul>
+                        </div>
                     </li>
+                    <!-- End Dropdown-1 -->
+
                     <li class="nav-item me-3 ps-3">
                         <a class="nav-link px-0 position-relative text-capitalize" href="subscribe.html">subscribe</a>
                     </li>
@@ -53,7 +66,6 @@
                     </li>
                 </ul>
             </div>
-
             <div class="navbar-icons">
                 <a href="#" class="me-4"><i class="fa-solid fa-magnifying-glass color-gold"></i></a>
                 <a href="#" class="me-4"><i class="fa-solid fa-user-tie color-gold"></i></a>
@@ -71,29 +83,31 @@
             <div class="position-relative">
                 <div class="header-content position-absolute text-start ">
                     <h1 class="text-capitalize color-gold fst-italic mb-5 ">form is temporary, class is permanent</h1>
-                    <a href="#" class="btn text-capitalize me-5 rounded-circle ">shop now</a>
-                    <a href="#" class="btn text-capitalize rounded-circle ">subscribe</a>
+                    <a href="#" class="btn text-capitalize me-5 mt-5 rounded-circle ">shop now</a>
+                    <a href="#" class="btn text-capitalize ms-5 mt-5 rounded-circle ">subscribe</a>
                 </div>
                 <div class="row header-clips position-absolute">
                     <div class="col-md-4">
                         <div class="header-clip position-relative">
-                        <img class="header-clip-img" src="assets/img/header-clip-1.jpg" alt="">
-                        <h4 class="header-clip-title text-center text-uppercase w-100 position-absolute">watches</h4>
-                    </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="header-clip position-relative">
-                        <img class="header-clip-img" src="assets/img/header-clip-2.jpg" alt="">
-                        <h4 class="header-clip-title text-center text-uppercase w-100 position-absolute">sunglasses</h4>
-                    </div>
+                            <img class="header-clip-img" src="assets/img/header-clip-1.jpg" alt="">
+                            <h4 class="header-clip-title text-center text-uppercase w-100 position-absolute">watches
+                            </h4>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <div class="header-clip position-relative">
-                        <img class="header-clip-img" src="assets/img/header-clip-3.jpg" alt="">
-                        <h4 class="header-clip-title text-center text-uppercase w-100 position-absolute">hair & beard care</h4>
+                            <img class="header-clip-img" src="assets/img/header-clip-2.jpg" alt="">
+                            <h4 class="header-clip-title text-center text-uppercase w-100 position-absolute">sunglasses
+                            </h4>
+                        </div>
                     </div>
+                    <div class="col-md-4">
+                        <div class="header-clip position-relative">
+                            <img class="header-clip-img" src="assets/img/header-clip-3.jpg" alt="">
+                            <h4 class="header-clip-title text-center text-uppercase w-100 position-absolute">hair &
+                                beard care</h4>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
