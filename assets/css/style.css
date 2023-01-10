@@ -20,12 +20,12 @@ nav.navbar {
     border-bottom: 2px dotted #574028;
 }
 
-.navbar .navbar-brand img {
+nav.navbar .navbar-brand img {
     max-width: 115px;
     max-height: 92px;
 }
 
-.navbar .navbar-nav .nav-item .nav-link {
+nav.navbar .navbar-nav .nav-item .nav-link {
 
     color: rgb(208 201 186);
     font-family: playfair-display;
@@ -33,21 +33,21 @@ nav.navbar {
 
 }
 
-.navbar .navbar-nav .nav-item a {
+nav.navbar .navbar-nav .nav-item a {
     transition: 1.2s;
 }
 
-.navbar .navbar-nav .nav-item:hover a {
+nav.navbar .navbar-nav .nav-item:hover a {
     color: #d9a355;
 }
 
 
-.navbar .navbar-icons i {
+nav.navbar .navbar-icons i {
     transition: .7s;
     font-size: 20px;
 }
 
-.navbar .navbar-icons a:hover i {
+nav.navbar .navbar-icons a:hover i {
     transform: rotatey(180deg);
 }
 
@@ -58,29 +58,46 @@ nav.navbar {
 /* Start Navbar Dropdown */
 
 /* Removing the triangle shape */
-.navbar .navbar-nav .dropdown .dropdown-toggle::after {
+nav.navbar .navbar-nav .dropdown .dropdown-toggle::after {
     content: "";
     display: none;
 }
 
 /* Removing the triangle shape */
 
-.navbar .navbar-nav .dropdown .dropdown-toggle {
+nav.navbar .navbar-nav .dropdown .dropdown-toggle {
     color: rgb(208 201 186);
     font-family: playfair-display;
     font-size: 20px;
     transition: 1.2s;
 }
 
-.navbar .navbar-nav .dropdown:hover .dropdown-toggle {
+nav.navbar .navbar-nav .dropdown:hover button {
     color: #d9a355;
+}
+
+nav.navbar .navbar-nav .dropdown button {
+    border-width: 0;
+}
+
+nav.navbar .navbar-nav .dropdown .dropdown-menu {
+    background-color: #574028;
+}
+
+nav.navbar .navbar-nav .dropdown .dropdown-menu a {
+    color: #D9A355;
+}
+
+nav.navbar .navbar-nav .dropdown .dropdown-menu li:hover a {
+    background-color: #d9a355;
+    color: #574028
 }
 
 /* End Navbar  Dropdown */
 
 
 
-/* Start Header */
+/* Start INDEX Header */
 
 section.header {
     height: 130vh;
@@ -136,4 +153,4 @@ section.header .header-clip:hover h4 {
     opacity: 1;
 }
 
-/* End Header */
+/* End INDEX Header */
