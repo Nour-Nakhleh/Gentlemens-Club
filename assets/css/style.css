@@ -176,6 +176,9 @@ section.sub-content .tier-card .card-body p {
     color: #d9a355;
 
 }
+section.sub-content .tier-card .card-body ul{
+    list-style: none;
+}
 
 section.sub-content .tier-card .card-body span {
     font-size: 15px;
