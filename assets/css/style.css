@@ -224,7 +224,7 @@ footer.footer .footer-social .social-item:nth-child(3) a:hover{
 
 
 
-/* Start SUBSCRIBE */
+/* Start SUBSCRIBE PAGE*/
 
 section.sub-content {
     margin-top: 15%;
@@ -284,4 +284,16 @@ section.sub-content .tier-card .card-body .card-btn:hover {
     transform: scale(1.05);
 }
 
-/* End SUBSCRIBE */
+/* End SUBSCRIBE PAGE*/
+
+
+
+/* START ABOUT PAGE */
+/* Start Owner Section */
+
+section.owners .owner-card {
+    background-image: linear-gradient(#441605, #d6ad60);
+}
+
+/* End Owner Section */
+/* End ABOUT */
