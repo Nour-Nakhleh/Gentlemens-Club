@@ -162,6 +162,37 @@ section.header .header-clip:hover h4 {
 /* End INDEX Header */
 
 
+/* Start INDEX Featured */
+section.featured h2{
+    font-size: 45px;
+}
+
+
+section.featured .featured-item{
+    background-color:rgb(151, 108, 56);
+}
+
+section.featured .featured-item a {
+    text-decoration: none;
+    background-color: #574028;
+    border: 2px solid;
+    border-color: #d9a355;
+    padding: 12px;
+    color: #d9a355;
+    transition: .4s;
+}
+
+section.featured .featured-item a:hover {
+    background-color: #d9a355;
+    color: #574028;
+    border-color: #574028;
+}
+
+/* End INDEX Featured */
+
+
+
+
 /* Start INDEX Footer */
 
 footer.footer {
