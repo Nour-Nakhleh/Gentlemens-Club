@@ -16,6 +16,7 @@ body {
 a {
     text-decoration: none;
 }
+
 /* Start Navbar */
 
 nav.navbar {
@@ -167,53 +168,53 @@ footer.footer {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-footer.footer h5{
+footer.footer h5 {
     font-size: 23px;
     color: #3f2408
 }
 
-footer.footer .footer-navigation li a{
+footer.footer .footer-navigation li a {
     color: rgb(43, 34, 17);
     font-size: 18px;
 }
 
-footer.footer .footer-social .social-item a{
+footer.footer .footer-social .social-item a {
     font-size: 30px;
     transition: .5s;
     width: 50px;
     height: 50px;
 }
 
-footer.footer .footer-social .social-item:hover a{
+footer.footer .footer-social .social-item:hover a {
     color: rgb(208 201 186) !important;
-    transform:scale(1.15);
+    transform: scale(1.15);
 }
 
-footer.footer .footer-social .social-item:nth-child(1) a{
+footer.footer .footer-social .social-item:nth-child(1) a {
     color: #4267B2;
     border-color: #4267B2 !important;
 }
 
-footer.footer .footer-social .social-item:nth-child(1) a:hover{
+footer.footer .footer-social .social-item:nth-child(1) a:hover {
     background-color: #4267B2;
 
 }
 
-footer.footer .footer-social .social-item:nth-child(2) a{
+footer.footer .footer-social .social-item:nth-child(2) a {
     color: #1DA1F2;
     border-color: #1DA1F2 !important;
 }
 
-footer.footer .footer-social .social-item:nth-child(2) a:hover{
-background-color: #1DA1F2;
+footer.footer .footer-social .social-item:nth-child(2) a:hover {
+    background-color: #1DA1F2;
 }
 
-footer.footer .footer-social .social-item:nth-child(3) a{
-color: #c93b31;
-border-color: #c93b31 !important;
+footer.footer .footer-social .social-item:nth-child(3) a {
+    color: #c93b31;
+    border-color: #c93b31 !important;
 }
 
-footer.footer .footer-social .social-item:nth-child(3) a:hover{
+footer.footer .footer-social .social-item:nth-child(3) a:hover {
     background-color: #c93b31;
 }
 
@@ -245,7 +246,8 @@ section.sub-content .tier-card .card-body p {
     color: #d9a355;
 
 }
-section.sub-content .tier-card .card-body ul{
+
+section.sub-content .tier-card .card-body ul {
     list-style: none;
 }
 
@@ -290,6 +292,10 @@ section.sub-content .tier-card .card-body .card-btn:hover {
 
 /* START ABOUT PAGE */
 /* Start Owner Section */
+section.owners h2 {
+    color: rgb(24, 22, 22);
+}
+
 
 section.owners .owner-card {
     background-image: linear-gradient(#441605, #d6ad60);
@@ -297,3 +303,35 @@ section.owners .owner-card {
 
 /* End Owner Section */
 /* End ABOUT */
+
+
+
+/* Start Contact Section */
+section.contact{
+    margin-top: 10%;
+}
+
+
+section.contact input:focus,
+section.contact textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+section.contact a {
+    text-decoration: none;
+    background-color: #574028;
+    border: 2px solid;
+    border-color: #d9a355;
+    padding: 22px;
+    color: #d9a355;
+    transition: .5s;
+}
+
+section.contact a:hover {
+    background-color: #d9a355;
+    color: #574028;
+    border-color: #574028;
+}
+
+/* End Contact Section */
