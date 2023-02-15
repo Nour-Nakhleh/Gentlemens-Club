@@ -347,6 +347,11 @@ section.contact{
 }
 
 
+section.contact h2{
+    color: rgb(24, 22, 22);
+
+}
+
 section.contact input:focus,
 section.contact textarea:focus {
     outline: none;
