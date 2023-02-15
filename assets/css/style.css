@@ -292,6 +292,10 @@ section.sub-content .tier-card .card-body .card-btn:hover {
 
 /* START ABOUT PAGE */
 /* Start Owner Section */
+section.owners{
+    margin-top: 12%;
+}
+
 section.owners h2 {
     color: rgb(24, 22, 22);
 }

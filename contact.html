@@ -16,6 +16,62 @@
 </head>
 
 <body>
+    <!-- Start Navbar Section -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class src="assets/img/logo.jpeg" alt="Gentlemen's Club Logo" class="img-fluid" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-3 ps-3">
+                        <a class="nav-link px-0 position-relative text-capitalize active" aria-current="page"
+                            href="index.html">Home</a>
+                    </li>
+
+                    <!-- Start Dropdown-1 -->
+                    <li class="nav-item me-3 ps-3">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle text-capitalize" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                shop
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-capitalize" href="#">action 1</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">action 2</a></li>
+                                <li><a class="dropdown-item text-capitalize" href="#">action 3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- End Dropdown-1 -->
+
+                    <li class="nav-item me-3 ps-3">
+                        <a class="nav-link px-0 position-relative text-capitalize" href="subscribe.html">subscribe</a>
+                    </li>
+                    <li class="nav-item me-3 ps-3">
+                        <a class="nav-link px-0 position-relative text-capitalize" href="about.html">about</a>
+                    </li>
+
+                    <li class="nav-item me-3 ps-3">
+                        <a class="nav-link px-0 position-relative text-capitalize" href="contact.html">contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-icons">
+                <a href="#" class="me-4"><i class="fa-solid fa-magnifying-glass color-gold"></i></a>
+                <a href="#" class="me-4"><i class="fa-solid fa-user-tie color-gold"></i></a>
+                <a href="#" class="me-4"><i class="fa-solid fa-cart-shopping color-gold"></i></a>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Navbar Section -->
+
     <!-- Start Contact Section -->
     <section class="contact py-5">
         <div class="container">
@@ -55,6 +111,55 @@
         </div>
     </section>
     <!-- End Contact Section -->
+
+
+    <!-- Start Footer Section -->
+    <footer class="footer py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-navigation">
+                        <h5 class="text-capitalize mb-2">navigation</h5>
+                        <ul class="list-unstyled">
+                            <li class="text-capitalize mb-2"><a href="#">Home</a></li>
+                            <li class="text-capitalize mb-2"><a href="#">About</a></li>
+                            <li class="text-capitalize mb-2"><a href="#">Services</a></li>
+                            <li class="text-capitalize mb-2"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-contact">
+                        <h5 class="text-center mb-2">Contact</h5>
+                        <ul class="list-unstyled">
+                            <li class="text-uppercase mb-3"><i class="fas fa-envelope"></i> Email: gclub474@gmail.com
+                            </li>
+                            <li class="text-uppercase mb-3"><i class="fas fa-phone"></i> Phone: 123-456-789</li>
+                            <li class="text-uppercase mb-3"><i class="fas fa-map-marker-alt"></i> Address:
+                                Ramallah-Palestine</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-social text-center">
+                        <h5 class="mb-5">Follow Us</h5>
+                        <ul class="list-unstyled d-flex justify-content-between">
+                            <li class="social-item"><a class="d-flex justify-content-center border rounded-circle p-2" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="social-item"><a class="d-flex justify-content-center border rounded-circle p-2" href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="social-item"><a class="d-flex justify-content-center border rounded-circle p-2" href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center">
+                    <p class="text-muted">Copyright © 2023 Gentlemen's Club</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
 
 
     <!-- include bootstrap js -->
